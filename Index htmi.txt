@@ -1,0 +1,38 @@
+Index.htmi
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اطلس | بازارگاه بین‌المللی تجارت و دراپ‌شیپینگ</title>
+    <style>
+        :root { --primary: #0f172a; --accent: #2563eb; --success: #16a34a; --bg: #f8fafc; --text: #334155; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: Tahoma, sans-serif; }
+        body { background: var(--bg); color: var(--text); direction: rtl; }
+        header { background: var(--primary); color: white; padding: 1rem; text-align: center; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+        .card { background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .price { color: var(--success); font-weight: bold; margin: 0.5rem 0; }
+        .btn { background: var(--accent); color: white; border: none; padding: 0.6rem; border-radius: 6px; width: 100%; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>اطلس (Atlas Shop)</h1>
+        <p>پل ارتباطی تجاری ایران و اقلیم کردستان | ارسال رایگان</p>
+    </header>
+    <div class="container">
+        <h2 style="margin: 1rem 0;">محصولات ویژه و صادراتی</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>صنایع دستی و سفال ممتاز</h3>
+                <p>تحویل مستقیم در سلیمانیه و اربیل</p>
+                <div class="price">۱,۲۵۰,۰۰۰ تومان (ارسال رایگان)</div>
+                <button class="btn" onclick="alert('به سبد خرید اضافه شد!')">افزودن به سبد خرید</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
